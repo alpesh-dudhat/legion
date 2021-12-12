@@ -1,0 +1,70 @@
+.sidebar .logo a {
+  color: #fff;
+  font-size: 20px;
+}
+
+.white_card .white_card_body {
+  width: 100%;
+}
+
+.main_content .line_icon {
+  cursor: pointer;
+}
+
+.main_content .page_title_box {
+  gap: 10px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.white_card .insta {
+  height: 100%;
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.white_card .insta h3 {
+  font-size: 22px;
+  line-height: normal;
+}
+
+.white_card .insta h3 span {
+  font-size: 14px;
+}
+
+.white_card .insta h5 {
+  font-size: 18px;
+  line-height: inherit;
+}
+
+.white_card .insta p {
+  margin-top: 10px;
+  color: #4a94c0;
+  font-weight: bold;
+}
+
+.white_card .insta .join-now {
+  margin-top: 15px;
+  background: #33a8e3;
+  color: #fff;
+  display: block;
+  max-width: 120px;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.white_card .insta .join-now:hover {
+  background: #000;
+}
+/*# sourceMappingURL=custom.css.map */

@@ -14,40 +14,18 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <!-- themefy CSS -->
     <link rel="stylesheet" href="vendors/themefy_icon/themify-icons.css" />
-    <!-- select2 CSS -->
-    <link rel="stylesheet" href="vendors/niceselect/css/nice-select.css" />
-    <!-- owl carousel CSS -->
-    <link rel="stylesheet" href="vendors/owl_carousel/css/owl.carousel.css" />
-    <!-- gijgo css -->
-    <link rel="stylesheet" href="vendors/gijgo/gijgo.min.css" />
-    <!-- font awesome CSS -->
     <link rel="stylesheet" href="vendors/font_awesome/css/all.min.css" />
-    <link rel="stylesheet" href="vendors/tagsinput/tagsinput.css" />
-
-    <!-- date picker -->
-    <link rel="stylesheet" href="vendors/datepicker/date-picker.css" />
-
-    <link rel="stylesheet" href="vendors/vectormap-home/vectormap-2.0.2.css" />
-
-    <!-- scrollabe  -->
-    <link rel="stylesheet" href="vendors/scroll/scrollable.css" />
-    <!-- datatable CSS -->
     <link rel="stylesheet" href="vendors/datatable/css/jquery.dataTables.min.css" />
     <link rel="stylesheet" href="vendors/datatable/css/responsive.dataTables.min.css" />
     <link rel="stylesheet" href="vendors/datatable/css/buttons.dataTables.min.css" />
-    <!-- text editor css -->
-    <link rel="stylesheet" href="vendors/text_editor/summernote-bs4.css" />
-    <!-- morris css -->
-    <link rel="stylesheet" href="vendors/morris/morris.css" />
-    <!-- metarial icon css -->
     <link rel="stylesheet" href="vendors/material_icon/material-icons.css" />
 
     <!-- menu css  -->
     <link rel="stylesheet" href="css/metisMenu.css" />
     <!-- style CSS -->
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/custom.css" />
-    <link rel="stylesheet" href="css/colors/default.css" id="colorSkinCSS" />
+    <link rel="stylesheet" href="assets/css/custom.min.css" />
+    <!-- <link rel="stylesheet" href="css/colors/default.css" id="colorSkinCSS" /> -->
 </head>
 
 <body class="crm_body_bg">
@@ -56,10 +34,10 @@
     <!-- sidebar  -->
     <nav class="sidebar dark_sidebar">
         <div class="logo d-flex justify-content-between">
-            <!-- <a class="large_logo" href="index-2.html"><img src="img/logo_white.png" alt=""></a>
-        <a class="small_logo" href="index-2.html"><img src="img/mini_logo.png" alt=""></a> -->
-            <a class="large_logo" href="index-2.html">Legion</a>
-            <a class="small_logo" href="index-2.html">Legion</a>
+            <a class="large_logo" href="index-2.html"><img src="img/logo-legion.png" alt=""></a>
+            <a class="small_logo" href="index-2.html"><img src="img/mini_logo.png" alt=""></a>
+            <!-- <a class="large_logo" href="index-2.html">Legion</a>
+            <a class="small_logo" href="index-2.html">Legion</a> -->
             <div class="sidebar_close_icon d-lg-none">
                 <i class="ti-close"></i>
             </div>
@@ -272,13 +250,8 @@
                 <!-- page title  -->
                 <div class="row">
                     <div class="col-12">
-                        <div class="
-                  page_title_box
-                  d-flex
-                  flex-wrap
-                  align-items-center
-                  justify-content-between
-                ">
+                        <div
+                            class="page_title_box d-flex flex-wrap flex-column flex-md-row align-items-center justify-content-md-between">
                             <div class="page_title_left">
                                 <h3 class="mb-0">Dashboard</h3>
                                 <p>Dashboard/Crypto currenct</p>
@@ -336,65 +309,76 @@
                                         </li>
                                     </ul>
                                     <div class="button_wizerd">
-                                        <a href="#" class="white_btn mr_5">ToDo</a>
+                                        <a href="#" class="white_btn mr_5 mb-3">ToDo</a>
                                         <a href="#" class="white_btn">Settings</a>
                                     </div>
                                 </div>
                             </div>
-                            <div class="white_card_body anlite_table p-0">
-                                <div class="row">
-                                    <div class="col-lg-3">
-                                        <div class="single_analite_content">
-                                            <h4>Total Income</h4>
-                                            <h3>$ <span class="counter">14,025</span></h3>
-                                            <div class="d-flex">
-                                                <div>3.78 <i class="fa fa-caret-up"></i></div>
-                                                <span>This year</span>
+                            <div class="white_card_body  p-0">
+                                <div class="row no-gutters">
+                                    <div class="col-lg-6">
+                                        <div class="row anlite_table no-gutters">
+                                            <div class="col-lg-6 col-md-6 col-6">
+                                                <div class="single_analite_content">
+                                                    <h4>Total Income</h4>
+                                                    <h3>$ <span class="counter">14,025</span></h3>
+                                                    <div class="d-flex">
+                                                        <div>3.78 <i class="fa fa-caret-up"></i></div>
+                                                        <span>This year</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-md-6 col-6">
+                                                <div class="single_analite_content">
+                                                    <h4>Sessions</h4>
+                                                    <h3><span class="counter">2025</span></h3>
+                                                    <div class="d-flex">
+                                                        <div>3.78<i class="fa fa-caret-up"></i></div>
+                                                        <span>This month</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-md-6 col-6">
+                                                <div class="single_analite_content">
+                                                    <h4>Ethereum Wallet</h4>
+                                                    <h3><span class="counter">8025</span></h3>
+                                                    <div class="d-flex">
+                                                        <div>3.78 <i class="fa fa-caret-up"></i></div>
+                                                        <span>This month</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-md-6 col-6">
+                                                <div class="single_analite_content">
+                                                    <h4>Number of Clients</h4>
+                                                    <h3><span class="counter">5645</span></h3>
+                                                    <div class="d-flex">
+                                                        <div>3.78 <i class="fa fa-caret-up"></i></div>
+                                                        <span>This month</span>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-3">
-                                        <div class="single_analite_content">
-                                            <h4>Sessions</h4>
-                                            <h3><span class="counter">2025</span></h3>
-                                            <div class="d-flex">
-                                                <div>3.78<i class="fa fa-caret-up"></i></div>
-                                                <span>This month</span>
-                                            </div>
+
+                                    <div class="col-lg-6">
+                                        <div class="insta">
+                                            <h3>Welcome to the Legion –<br><span> We share trading signal using latest
+                                                    AI to profit everyone!</span></h3>
+                                            <h5>Dear 🌻, join us in 10x our money in GOLD, by simply following our 97%
+                                                accurate LegionSignal. (0.6% risk only)</h5>
+                                            <p>*LIMITED FREE 1 DAY BELOW*</p>
+                                            <a class="join-now" href="https://t.me/LegionTradingSignal_bot"
+                                                target="_blank">Join Now</a>
                                         </div>
                                     </div>
-                                    <div class="col-lg-3">
-                                        <div class="single_analite_content">
-                                            <h4>Ethereum Wallet</h4>
-                                            <h3><span class="counter">8025</span></h3>
-                                            <div class="d-flex">
-                                                <div>3.78 <i class="fa fa-caret-up"></i></div>
-                                                <span>This month</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3">
-                                        <div class="single_analite_content">
-                                            <h4>Number of Clients</h4>
-                                            <h3><span class="counter">5645</span></h3>
-                                            <div class="d-flex">
-                                                <div>3.78 <i class="fa fa-caret-up"></i></div>
-                                                <span>This month</span>
-                                            </div>
-                                        </div>
-                                    </div>
+
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-12">
-                        <div class="
-                  page_title_box
-                  d-flex
-                  flex-wrap
-                  align-items-center
-                  justify-content-between
-                ">
+                        <div class="page_title_box d-flex flex-wrap align-items-center justify-content-between">
                             <div class="page_title_left mb_10">
                                 <h3 class="mb-0">Overview</h3>
                                 <p>
@@ -750,6 +734,9 @@
         </a>
     </div>
 
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300&amp;display=swap" />
+
     <!-- footer  -->
     <script src="js/jquery-3.4.1.min.js"></script>
     <!-- popper js -->
@@ -758,15 +745,7 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- sidebar menu  -->
     <script src="js/metisMenu.js"></script>
-    <!-- waypoints js -->
-    <script src="vendors/count_up/jquery.waypoints.min.js"></script>
-    <!-- waypoints js -->
-    <script src="vendors/chartlist/Chart.min.js"></script>
-    <!-- counterup js -->
-    <script src="vendors/count_up/jquery.counterup.min.js"></script>
 
-    <!-- nice select -->
-    <script src="vendors/niceselect/js/jquery.nice-select.min.js"></script>
     <!-- owl carousel -->
     <script src="vendors/owl_carousel/js/owl.carousel.min.js"></script>
 
@@ -774,48 +753,15 @@
     <script src="vendors/datatable/js/jquery.dataTables.min.js"></script>
     <script src="vendors/datatable/js/dataTables.responsive.min.js"></script>
     <script src="vendors/datatable/js/dataTables.buttons.min.js"></script>
-    <script src="vendors/datatable/js/buttons.flash.min.js"></script>
-    <script src="vendors/datatable/js/jszip.min.js"></script>
-    <script src="vendors/datatable/js/pdfmake.min.js"></script>
-    <script src="vendors/datatable/js/vfs_fonts.js"></script>
-    <script src="vendors/datatable/js/buttons.html5.min.js"></script>
-    <script src="vendors/datatable/js/buttons.print.min.js"></script>
 
-    <!-- datepicker  -->
-    <script src="vendors/datepicker/datepicker.js"></script>
-    <script src="vendors/datepicker/datepicker.en.js"></script>
-    <script src="vendors/datepicker/datepicker.custom.js"></script>
 
     <script src="js/chart.min.js"></script>
     <script src="vendors/chartjs/roundedBar.min.js"></script>
-
-    <!-- progressbar js -->
-    <script src="vendors/progressbar/jquery.barfiller.js"></script>
-    <!-- tag input -->
-    <script src="vendors/tagsinput/tagsinput.js"></script>
-    <!-- text editor js -->
-    <script src="vendors/text_editor/summernote-bs4.js"></script>
-    <script src="vendors/am_chart/amcharts.js"></script>
-
-    <!-- scrollabe  -->
-    <script src="vendors/scroll/perfect-scrollbar.min.js"></script>
-    <script src="vendors/scroll/scrollable-custom.js"></script>
-
-    <!-- vector map  -->
-    <script src="vendors/vectormap-home/vectormap-2.0.2.min.js"></script>
-    <script src="vendors/vectormap-home/vectormap-world-mill-en.js"></script>
 
     <!-- apex chrat  -->
     <script src="vendors/apex_chart/apex-chart2.js"></script>
     <script src="vendors/apex_chart/apex_dashboard.js"></script>
 
-    <!-- <script src="vendors/echart/echarts.min.js"></script> -->
-
-    <script src="vendors/chart_am/core.js"></script>
-    <script src="vendors/chart_am/charts.js"></script>
-    <script src="vendors/chart_am/animated.js"></script>
-    <script src="vendors/chart_am/kelly.js"></script>
-    <script src="vendors/chart_am/chart-custom.js"></script>
     <!-- custom js -->
     <script src="js/dashboard_init.js"></script>
     <script src="js/custom.js"></script>

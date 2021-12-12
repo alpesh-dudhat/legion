@@ -123,15 +123,6 @@ $("#sidebar_menu >li a").filter(function() {
 
 
 
-    //count up js
-    var count= $('.counter');
-        if(count.length){
-        count.counterUp({
-            delay: 100,
-            time: 5000
-        });
-    }
-
 
 
 
