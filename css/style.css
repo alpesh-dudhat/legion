@@ -1629,6 +1629,8 @@ th:focus {
 
 .cs_modal .modal-body .btn_1 {
   width: 100%;
+  max-width: 120px;
+  margin: 0 auto;
   display: block;
   margin-top: 20px;
 }
@@ -3231,7 +3233,7 @@ table.dataTable.dtr-inline.collapsed>tbody>tr.parent>th:first-child::before {
   position: fixed;
   top: 0;
   z-index: 99;
-  padding: 15px 30px;
+  padding: 10px 30px;
   position: relative;
   border-radius: 0px;
   margin: 0;
@@ -4812,7 +4814,7 @@ body::-webkit-scrollbar {
   margin: 0;
   z-index: 22;
   border-radius: 0px;
-  padding: 30px 30px;
+  padding: 10px 30px;
 }
 
 .main_content .main_content_iner.default_main_contaner_iner {
@@ -5181,7 +5183,7 @@ body::-webkit-scrollbar {
 }
 
 .white_card .white_card_header {
-  padding: 22px 30px;
+  padding: 10px 30px;
 }
 
 .white_card .white_card_body {

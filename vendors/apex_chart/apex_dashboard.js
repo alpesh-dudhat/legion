@@ -112,7 +112,7 @@ chart1.render();
 var options = {
     chart: {
         type:"area",
-        height: 340,
+        height: 240,
         sparkline: {
             enabled: true
         }
